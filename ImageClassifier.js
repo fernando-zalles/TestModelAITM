@@ -41,7 +41,7 @@
     text(label, width / 2, height - 4);
     print(label);
       
-    if (label == 'Clase1') {
+    if (label == 'Class 1') {
         image(flippedVideo, 0, 0);
         //filter(THRESHOLD);
             // Draw the label
@@ -51,7 +51,7 @@
         text(label, width / 2, height - 4);
         print(label);
         print('pasaste por etiqueta1');
-    } else if(label == 'Clase2'){
+    } else if(label == 'Class 2'){
         image(flippedVideo, 0, 0);
         fill(255,0,0,100);
         rect(0,0,640,480);
@@ -63,7 +63,7 @@
         text(label, width / 2, height - 4);
         print(label);
         print('pasaste por etiqueta2');
-    }else if(label == 'Clase3'){
+    }else if(label == 'Class 3'){
         image(flippedVideo, 0, 0);
         fill(0,255,0,100);
         rect(0,0,640,480);
@@ -75,7 +75,7 @@
         text(label, width / 2, height - 4);
         print(label);
         print('pasaste por etiqueta3');
-    }else if(label == 'Clase4'){
+    }else if(label == 'Class 4'){
         image(flippedVideo, 0, 0);
         fill(0,0,255,100);
         rect(0,0,640,480);
